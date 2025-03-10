@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5296493484734594080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4900045353438430492}
+  m_Layer: 0
+  m_Name: BasicWave02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4900045353438430492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5296493484734594080}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.74, y: -1.17, z: -5.0190787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 540231861730203474}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6712691434095564146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 540231861730203474}
+  - component: {fileID: 710384416235730896}
+  - component: {fileID: 2514813202084808193}
+  m_Layer: 0
+  m_Name: BasicOrda02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &540231861730203474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6712691434095564146}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.7999997, y: -1.5300001, z: 0.6647887}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4900045353438430492}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &710384416235730896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6712691434095564146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 0.15859604
+        y: -0.48995906
+        z: 0.004290104
+      TangentIn:
+        x: -0
+        y: -0
+        z: -1.4497828
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.1134931
+      Rotation:
+        value:
+          x: 0.025330907
+          y: 0.4056824
+          z: -0.008781456
+          w: 0.9136209
+    - Position:
+        x: 2.1685963
+        y: 1.560041
+        z: 2.35429
+      TangentIn:
+        x: -0
+        y: -0
+        z: -0.7646987
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.64928335
+      Rotation:
+        value:
+          x: -0.54030424
+          y: 0.2512318
+          z: 0.39072412
+          w: 0.70163286
+    - Position:
+        x: 0.4685955
+        y: 3.520041
+        z: 1.7042899
+      TangentIn:
+        x: -0
+        y: -0
+        z: -0.8332875
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.2532429
+      Rotation:
+        value:
+          x: 0.04071731
+          y: 0.92422885
+          z: 0.12461057
+          w: -0.3586298
+    - Position:
+        x: -1.8314037
+        y: 1.530041
+        z: -3.52571
+      TangentIn:
+        x: -0
+        y: -0
+        z: -1.3139738
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.92268056
+      Rotation:
+        value:
+          x: -0.32626152
+          y: 0.7624053
+          z: -0.19999954
+          w: -0.521816
+    - Position:
+        x: -3.8314037
+        y: -0.529959
+        z: -2.7157102
+      TangentIn:
+        x: -0
+        y: -0
+        z: -0.69350433
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.67948735
+      Rotation:
+        value:
+          x: -0.041473757
+          y: -0.6339889
+          z: 0.044096943
+          w: 0.7709692
+    - Position:
+        x: -5.8714046
+        y: 1.480041
+        z: -2.7157102
+      TangentIn:
+        x: -0
+        y: -0
+        z: -0.6745936
+      TangentOut:
+        x: 0
+        y: 0
+        z: 0.6754207
+      Rotation:
+        value:
+          x: 0.49845594
+          y: 0.5015393
+          z: 0.49845594
+          w: -0.5015393
+    - Position:
+        x: -3.8514042
+        y: 3.520041
+        z: -2.7157102
+      TangentIn:
+        x: -0
+        y: -0
+        z: -0.8058788
+      TangentOut:
+        x: 0
+        y: 0
+        z: 1.1928115
+      Rotation:
+        value:
+          x: -0.029798921
+          y: 0.58810943
+          z: 0.00304149
+          w: 0.80822647
+    m_MetaData:
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    m_Closed: 1
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []
+--- !u!114 &2514813202084808193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6712691434095564146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6aa8d1e43c5c1479e89b2bc1ffeddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splineContainer: {fileID: 710384416235730896}
+  numberOfPrefabs: 6
+  prefab: {fileID: 5398781814637762015, guid: 6416d6514f7b0ff4b8aeab58bd46b163, type: 3}
+  speed: 0.05
