@@ -361,3 +361,19 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Ignorar pasta Temp/
+[Tt]emp/
+
+# Outros arquivos temporários do Unity
+[Ll]ibrary/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+*.userprefs
+*.csproj
+*.sln
+*.suo
+*.unityproj
+*.pidb
+*.booproj
